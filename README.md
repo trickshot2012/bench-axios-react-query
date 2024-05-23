@@ -10,7 +10,9 @@
 - temporibus sit alias delectus eligendi possimus magni
 - at nam consequatur ea labore ea harum
 
-**<span style="color: red;">Fetch duration: 27.70 ms</span>**
+```
+Fetch duration: 27.70 ms
+```
 
 ### Using fetch with useEffect
 
@@ -21,7 +23,9 @@
 - temporibus sit alias delectus eligendi possimus magni
 - at nam consequatur ea labore ea harum
 
-**<span style="color: red;">Fetch duration: 48.60 ms</span>**
+```
+Fetch duration: 48.60 ms
+```
 
 ## Conclusion
 ### Cached or not - most of the times react-query with axios performs better
