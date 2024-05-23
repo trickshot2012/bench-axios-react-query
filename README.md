@@ -1,8 +1,27 @@
-# React + Vite
+# Benchmark standard fetch vs react-query with axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Performance Comparison
 
-Currently, two official plugins are available:
+### Using useQuery with Axios
+- sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+- qui est esse
+- ...
+- laboriosam dolor voluptates
+- temporibus sit alias delectus eligendi possimus magni
+- at nam consequatur ea labore ea harum
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**<span style="color: red;">Fetch duration: 27.70 ms</span>**
+
+### Using fetch with useEffect
+
+- sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+- qui est esse
+- ...
+- laboriosam dolor voluptates
+- temporibus sit alias delectus eligendi possimus magni
+- at nam consequatur ea labore ea harum
+
+**<span style="color: red;">Fetch duration: 48.60 ms</span>**
+
+## Conclusion
+### Cached or not - most of the times react-query with axios performs better
